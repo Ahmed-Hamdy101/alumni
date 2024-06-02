@@ -105,7 +105,7 @@ define("DB_DATABASE_PORT", "3306");
 
 
   #### admin Portal :
-   - Dashboard of management system for display data on page
+   - Dashboard of management system collage for CRUD Operations 
      
    |  Route |  Page Title | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
