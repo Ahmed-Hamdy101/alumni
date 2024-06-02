@@ -77,7 +77,7 @@ define("DB_DATABASE_PORT", "3306");
                 }
    ```
   
-  ####  Routes :
+  #### General Routes of home page :
    |  Route |  Page Title | http status code |
    | ----   | ------------ | ----------- |
    |[localhost:/](#) |  Home        | 200 Ok      |
