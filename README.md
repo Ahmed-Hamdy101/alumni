@@ -95,7 +95,6 @@ define("DB_DATABASE_PORT", "3306");
 
   #### Student Portal :
    - Description : Dashboard of student for display data on page
-     
    |  Route |  Page Title | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
    |[/portal_?page=_dashboard](/portal?page=_dashboard_portal) |  Portal Dashboard  | 200 Ok      |GET |
