@@ -98,7 +98,7 @@ define("DB_DATABASE_PORT", "3306");
   #### Student Portal :
   **Description** : Dashboard of student for display data on page
    
-   |  Route |  Page Title | http status code | Type |
+   |  Route |  Title  & Description | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
    |[/portal_?page=_dashboard](/portal?page=_dashboard_portal) |  Portal Dashboard  | 200 Ok      |GET |
    |[/portal_?page=_profile_student](http://localhost/portal?page=_profile_student) | profile data |200| GET | 
@@ -111,9 +111,9 @@ define("DB_DATABASE_PORT", "3306");
   #### admin manage system  :
    **Description** : Dashboard of management system collage for CRUD Operations 
      
-   |  Route |  Page Title | http status code | Type |
+   |  Route |  Page Title & Description | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
-   |[/dashboard.php?page=_dashboard](/portal?page=_dashboard) |  Dashboard | Display Data of student and event | | 200 Ok      |GET |
+   |[/dashboard.php?page=_dashboard](/portal?page=_dashboard) |  Dashboard | Display Data of student and event | 200 Ok      |GET |
    |[/dashboard.php?page=_dashboard_management_events_students](http://localhost/alumni/su_admin_13039/dashboard.php?page=_dashboard_management_events_students)| Management |200|PATCH | 
    |[/dashboard.php?page=_create](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create) | switch page create   | 200 ok    |POST |
    |[/dashboard.php?page=_create_student](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create_student) | create student  | 200 ok   |POST |
