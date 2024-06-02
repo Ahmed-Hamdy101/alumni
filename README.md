@@ -6,6 +6,7 @@
 -  Directories
 -  Database
 -  Studnet portal
+-  admin management system `CRUD`
 
 # Requirement :
  - Apache Server installed : prefered xammp or mamp
