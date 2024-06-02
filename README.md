@@ -100,10 +100,10 @@ define("DB_DATABASE_PORT", "3306");
    
    |  Route |  Title  & Description | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
-   |[/portal_?page=_dashboard](/portal?page=_dashboard_portal) |  Portal Dashboard  | 200 Ok      |GET |
-   |[/portal_?page=_profile_student](http://localhost/portal?page=_profile_student) | profile data |200| GET | 
-   |[/portal_?page=_register_portal](http://localhost/portal?page=_register_portal)| create register course   | 200 ok    |POST |
-   |[/portal_?page=_getcourse_portal](http://localhost/portal?page=_getcourse_portal) | get registered student  | 200 ok   |GET |
+   |[/portal_?page=_dashboard](/portal?page=_dashboard_portal) |  Portal Dashboard of student and news  | 200 Ok      |GET |
+   |[/portal_?page=_profile_student](http://localhost/portal?page=_profile_student) | profile data for student |200| GET | 
+   |[/portal_?page=_register_portal](http://localhost/portal?page=_register_portal)| create register course for students   | 200 ok    |POST |
+   |[/portal_?page=_getcourse_portal](http://localhost/portal?page=_getcourse_portal) | get registered student for courses  | 200 ok   |GET |
    |[/logout](/logout) | logout    | 200 ok   |GET |
 
 
@@ -114,11 +114,11 @@ define("DB_DATABASE_PORT", "3306");
    |  Route |  Page Title & Description | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
    |[/dashboard.php?page=_dashboard](/portal?page=_dashboard) |  Dashboard | Display Data of student and event | 200 Ok      |GET |
-   |[/dashboard.php?page=_dashboard_management_events_students](http://localhost/alumni/su_admin_13039/dashboard.php?page=_dashboard_management_events_students)| Management |200|PATCH | 
-   |[/dashboard.php?page=_create](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create) | switch page create   | 200 ok    |POST |
-   |[/dashboard.php?page=_create_student](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create_student) | create student  | 200 ok   |POST |
-   |[/dashboard.php?page=_create_event](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create_event) | create event  | 200 ok   |POST |
+   |[/dashboard.php?page=_dashboard_management_events_students](http://localhost/alumni/su_admin_13039/dashboard.php?page=_dashboard_management_events_students)| Management : update events and students |200|PATCH | 
+   |[/dashboard.php?page=_create](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create) | switch page create btwn event & student   | 200 ok    |POST |
+   |[/dashboard.php?page=_create_student](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create_student) | register student : create new student for collage | 200 ok   |POST |
+   |[/dashboard.php?page=_create_event](http://localhost/alumni/su_admin_13039/dashboard.php?page=_create_event) | register event : create new event for collage  | 200 ok   |POST |
    |[/dashboard.php?page=_manage_admin](http://localhost/alumni/su_admin_13039/dashboard.php?page=_manage_admin) | manage admin setting | 200 ok   |PATCH |
-   |[/dashboard.php?page=_enroll_event](http://localhost/alumni/su_admin_13039/dashboard.php?page=_enroll_event) | enroll page    | 200 ok   |GET |
+   |[/dashboard.php?page=_enroll_event](http://localhost/alumni/su_admin_13039/dashboard.php?page=_enroll_event) | enroll page : display registered data    | 200 ok   |GET |
    |[/logout](/logout) | logout    | 200 ok   |GET |
 
