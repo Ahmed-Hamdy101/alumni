@@ -79,7 +79,9 @@ define("DB_DATABASE_PORT", "3306");
    ```
   
   #### General Routes of home page :
-  -  Description : general routes of home pages only accessible these routes otherwise will return 404-error-page
+    **Description** : general routes of home pages only accessible these routes otherwise will return 404-error-page
+
+
    |  Route |  Page Title | http status code |
    | ----   | ------------ | ----------- |
    |[localhost:/](#) |  Home        | 200 Ok      |
@@ -94,7 +96,8 @@ define("DB_DATABASE_PORT", "3306");
 
 
   #### Student Portal :
-   - Description : Dashboard of student for display data on page
+  **Description** : Dashboard of student for display data on page
+   
    |  Route |  Page Title | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
    |[/portal_?page=_dashboard](/portal?page=_dashboard_portal) |  Portal Dashboard  | 200 Ok      |GET |
@@ -106,7 +109,7 @@ define("DB_DATABASE_PORT", "3306");
 
 
   #### admin manage system  :
-   - Description : Dashboard of management system collage for CRUD Operations 
+   **Description** : Dashboard of management system collage for CRUD Operations 
      
    |  Route |  Page Title | http status code | Type |
    | --------   | ------------ | ----------- | ----------- |
