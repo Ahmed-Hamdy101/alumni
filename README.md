@@ -1,4 +1,6 @@
 # alumni project collage 
+
+# Overview
 -  Project Structure
 -  Directories
 -  Database
@@ -19,4 +21,13 @@ Model , View , Controller this Architecture is responsibe for arrangement and yo
   - student application
   - portal application
   - admin system management for collage
+- second `Directoy` is `assets`
+- assets contains on :
+    - css files
+    - js files
+    - libaray files
+- thrid `Directory` errors resposible for display errors when the user to unknown directory
+- errors contains on :
+  - 404-page
+
 
